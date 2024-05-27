@@ -1,6 +1,6 @@
 import axios from 'axios';
-// const url=`https://chatapp-server-6zdt.onrender.com` ;
-const url=`http://localhost:8000` ;
+const url=`https://chatapp-server-6zdt.onrender.com` ;
+// const url=`http://localhost:8000` ;
 
 export const addUser = async (data)=>{
     try{
