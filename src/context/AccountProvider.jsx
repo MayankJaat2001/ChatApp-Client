@@ -13,7 +13,7 @@ const AccountProvider=({ children })=>{
 
     useEffect(()=>{
         // socket.current=io('ws://chatapp-socket-4880.onrender.com')
-        socket.current=io('ws://localhost:9000')
+        socket.current=io('https://chatapp-socket-4880.onrender.com')
     },[])
     return(
         <AccountContext.Provider value={{
